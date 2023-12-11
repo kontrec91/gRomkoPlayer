@@ -1,0 +1,33 @@
+export const NEW_USER = 'NEW_USER'
+
+export const LOGIN = "LOGIN";
+export const LOGOUT = "LOGOUT";
+
+export const SET_TRACKS = "SET_TRACKS";
+
+export const SET_CURRENT_TRACK = "SET_CURRENT_TRACK";
+
+export const CLEAR_TRACK_LIST = "CLEAR_TRACK_LIST";
+
+export const SET_PLAYLISTS = "SET_PLAYLISTS";
+
+export const SET_TRACK = "SET_TRACK";
+
+export const CREATE_MY_PLAYLIST = "CREATE_MY_PLAYLIST";
+
+export const PLAYLIST_TRACK_PRESSED = "PLAYLIST_TRACK_PRESSED";
+
+export const FIND_MY_PLAYLISTS = "FIND_MY_PLAYLISTS";
+
+export const FIND_MY_USER = "FIND_MY_USER"; 
+
+export const MY_CURRENT_PLAYLIST = "MY_CURRENT_PLAYLIST";
+
+export const SEARCH_TRACK = "SEARCH_TRACK";
+
+export const SEARCH_PLAYLISTS = "SEARCH_PLAYLISTS";
+
+export const UPLOAD_TRACK = "UPLOAD_TRACK";
+
+export const CURRENT_TRACK_ID = "CURRENT_TRACK_ID";
+

@@ -1,0 +1,33 @@
+.player{
+    display: flex;
+    justify-content: center;
+    bottom: 50px;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.player audio {
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 25px;
+}
+.prevTrack,
+.nextTrack,
+.loopTrack {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    outline:none;
+    font-size: 15px;
+}
+
+.loopTrack:hover,
+.active{
+    background-color: #1384e7;
+}
+
+.loopTrackClick{
+    /* background-color: red; */
+    background-color: #1384e7;
+}

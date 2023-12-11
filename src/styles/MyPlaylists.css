@@ -1,0 +1,45 @@
+.my_playlists {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+#formElem {
+    /* display:flex; */
+}
+
+
+.my_playlists_list li,
+.my_tracks li{
+    font-size: 16px;
+    font-weight: 700;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+}
+
+/* .my_playlists_list li:hover{
+    cursor: pointer;
+    background-color:#1890ff;
+    border-radius: 10px;
+    padding-left: 30px;
+    transform:  padding-left 30px;
+
+} */
+
+.my_tracks li:hover,
+.my_playlists_list li:hover{
+    cursor: pointer;
+    background-color:#1890ff;
+    border-radius: 10px;
+    padding-left: 30px;
+    transform:  padding-left 30px;
+}
+.current_track {
+    cursor: pointer;
+    background-color:#1890ff;
+}
+
+.highlighted {
+    background-color: #335C81;
+}
